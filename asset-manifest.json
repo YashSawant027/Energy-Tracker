@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Energy-Tracker/static/css/main.22c4aecf.css",
+    "main.js": "/Energy-Tracker/static/js/main.b41242be.js",
+    "static/js/453.7bf9472a.chunk.js": "/Energy-Tracker/static/js/453.7bf9472a.chunk.js",
+    "static/media/earth.png": "/Energy-Tracker/static/media/earth.f34b69c6b31f606e1571.png",
+    "static/media/woman.png": "/Energy-Tracker/static/media/woman.3f889d0af5f26871fbcc.png",
+    "static/media/man.png": "/Energy-Tracker/static/media/man.ab45eb1d42b1faaf3d12.png",
+    "static/media/formbg1.jpg": "/Energy-Tracker/static/media/formbg1.26b70effe6c06325a05e.jpg",
+    "static/media/logo.svg": "/Energy-Tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Energy-Tracker/index.html",
+    "main.22c4aecf.css.map": "/Energy-Tracker/static/css/main.22c4aecf.css.map",
+    "main.b41242be.js.map": "/Energy-Tracker/static/js/main.b41242be.js.map",
+    "453.7bf9472a.chunk.js.map": "/Energy-Tracker/static/js/453.7bf9472a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22c4aecf.css",
+    "static/js/main.b41242be.js"
+  ]
+}
