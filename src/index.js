@@ -12,7 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
   let productss = createBrowserRouter([
     {
     path: '/',
-    element: <App />
+    element: <App />,
+    errorElement : <div>Not Found</div>
   },
   {
     path: '/product',
