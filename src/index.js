@@ -13,11 +13,7 @@ const router = createHashRouter([
   {
     path: '/',
     element: <App />,
-<<<<<<< HEAD
-    errorElement : <div>Not Found</div>
-=======
     errorElement: <ErrorPage /> // ✅ Handles error boundary
->>>>>>> 28f16309f5c6801297e4751a1c404338d2455026
   },
   {
     path: '/product',

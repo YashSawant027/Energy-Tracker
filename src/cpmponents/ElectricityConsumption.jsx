@@ -97,8 +97,9 @@ const ElectricityConsumptionCalculator = () => {
                     className="w-full border p-2 rounded mb-4"
                     value={energySource}
                     onChange={(e) => setEnergySource(e.target.value)}
+                    required
                   >
-                    <option value="">Select</option>
+                    <option value="" >Select</option>
                     <option value="electricity">Electricity</option>
                     <option value="solar">Solar</option>
                     <option value="gas">Gas</option>
@@ -112,6 +113,7 @@ const ElectricityConsumptionCalculator = () => {
                     value={energyProvider}
                     onChange={(e) => setEnergyProvider(e.target.value)}
                     placeholder="Enter provider name"
+                    required
                   />
 
                   <button
@@ -134,6 +136,7 @@ const ElectricityConsumptionCalculator = () => {
                         value={appliance.name}
                         onChange={(e) => handleApplianceChange(index, 'name', e.target.value)}
                         className="border p-2 rounded"
+                        required
                       />
                       <input
                         type="number"
@@ -141,6 +144,7 @@ const ElectricityConsumptionCalculator = () => {
                         value={appliance.kwh}
                         onChange={(e) => handleApplianceChange(index, 'kwh', e.target.value)}
                         className="border p-2 rounded"
+                        required
                       />
                       <input
                         type="number"
@@ -148,6 +152,7 @@ const ElectricityConsumptionCalculator = () => {
                         value={appliance.hours}
                         onChange={(e) => handleApplianceChange(index, 'hours', e.target.value)}
                         className="border p-2 rounded"
+                        required
                       />
                     </div>
                   ))}
@@ -172,6 +177,8 @@ const ElectricityConsumptionCalculator = () => {
                     className="w-full border p-2 rounded mb-4"
                     value={peakUsage}
                     onChange={(e) => setPeakUsage(e.target.value)}
+                    required
+                    
                   >
                     <option value="">Select</option>
                     <option value="morning">Morning</option>
@@ -185,6 +192,7 @@ const ElectricityConsumptionCalculator = () => {
                     className="w-full border p-2 rounded mb-4"
                     value={highSeason}
                     onChange={(e) => setHighSeason(e.target.value)}
+                    required
                   >
                     <option value="">Select</option>
                     <option value="summer">Summer</option>
@@ -213,6 +221,7 @@ const ElectricityConsumptionCalculator = () => {
                     value={monthlyBill}
                     onChange={(e) => setMonthlyBill(e.target.value)}
                     placeholder="e.g., 1200"
+                    required
                   />
                   <div className="flex justify-between">
                     <button onClick={() => setStep(3)} className="bg-gray-500 text-white px-4 py-2 rounded">
